@@ -53,5 +53,6 @@ grails.project.dependency.resolution = {
 
         compile ':cache:1.0.0'
         compile ':mongodb:1.0.0.GA'
+      //  compile 'json-rest-api'
     }
 }

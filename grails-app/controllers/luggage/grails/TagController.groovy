@@ -1,6 +1,6 @@
 package luggage.grails
 
-class UserController {
+class TagController {
 
     static scaffold = true
 }

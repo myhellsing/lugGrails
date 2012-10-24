@@ -2,5 +2,5 @@ package luggage.grails
 
 class BrandController {
 
-    def index() { }
+    static scaffold = true
 }

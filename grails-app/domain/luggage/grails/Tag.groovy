@@ -1,17 +1,11 @@
 package luggage.grails
 
-class Tag {
+class Tag extends Base {
 
-    static mapWith = "mongo"
-
-    String name;
 
     static mapping = {
         name index:true, indexAttributes: [unique:true]
     }
 
-
-    static constraints = {
-    }
 
 }

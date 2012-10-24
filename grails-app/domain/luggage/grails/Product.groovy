@@ -1,13 +1,7 @@
 package luggage.grails
 
-class Product {
+class Product extends Base {
 
-    static mapWith = "mongo"
-
-    String name;
-
+    Brand brand;
     static hasMany = [tags:Tag]
-
-    static constraints = {
-    }
 }

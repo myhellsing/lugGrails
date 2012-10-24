@@ -1,18 +1,17 @@
 package luggage.grails
 
-class Expense {
+class Base {
 
     static mapWith = "mongo"
 
-    Product product;
-    long quantity;
-    double price;
+
+    String name;
 
     static constraints = {
     }
 
     @Override
     String toString() {
-        return product + quantity + price;
+        return name;
     }
 }

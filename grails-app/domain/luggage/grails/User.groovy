@@ -15,4 +15,9 @@ class User {
 
     static constraints = {
     }
+
+    @Override
+    String toString() {
+        return username;
+    }
 }

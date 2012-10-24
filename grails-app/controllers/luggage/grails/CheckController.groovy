@@ -1,6 +1,6 @@
 package luggage.grails
 
-class ProductItemController {
+class CheckController {
 
     static scaffold = true
 }

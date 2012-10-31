@@ -11,6 +11,7 @@ class Product  {
     String name;
 
     static constraints = {
+        brand(nullable: true)
     }
 
     @Override

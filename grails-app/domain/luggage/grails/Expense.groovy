@@ -13,6 +13,6 @@ class Expense {
 
     @Override
     String toString() {
-        return product + quantity + price;
+        return product.toString()+" " + quantity +" "+ price;
     }
 }

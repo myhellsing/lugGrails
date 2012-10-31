@@ -33,6 +33,15 @@ environments {
         }*/
     }
     production {
+        grails {
+            mongo {
+                host = "127.0.0.1"
+                port = 27017
+                username = ""
+                password = ""
+                databaseName = "lug"
+            }
+        }
 /*        dataSource {
             dbCreate = "update"
             url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000"

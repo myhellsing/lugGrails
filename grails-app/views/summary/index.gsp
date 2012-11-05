@@ -31,9 +31,10 @@
     </g:each>
     <tr>
     <td colspan="2"> <strong>Итого: </strong></td>
-    <td><strong>${totalCost}</strong></td>
+    <td><strong>${check.totalCost}</strong></td>
     </tr>
 </table>
+   Итого:   <strong>${totalCost}</strong>
 <br/>
 <br/>
 </g:each>

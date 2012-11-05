@@ -5,7 +5,7 @@ class Expense {
     static mapWith = "mongo"
 
     Product product;
-    long quantity;
+    double quantity;
     double price;
 
     static constraints = {

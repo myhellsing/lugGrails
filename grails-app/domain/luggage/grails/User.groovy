@@ -9,6 +9,13 @@ class User {
      */
     String username
 
+    User() {
+    }
+
+    User(String username) {
+        this.username = username
+    }
+
     static mapping = {
         username index:true, indexAttributes: [unique:true]
     }

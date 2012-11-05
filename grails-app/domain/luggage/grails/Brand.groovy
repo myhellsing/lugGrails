@@ -10,6 +10,13 @@ class Brand {
     static constraints = {
     }
 
+    Brand() {
+    }
+
+    Brand(String name) {
+        this.name = name
+    }
+
     @Override
     String toString() {
         return name;

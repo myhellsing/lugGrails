@@ -10,12 +10,20 @@ class Product  {
 
     String name;
 
+    Product() {
+    }
+
+    Product( String name,Brand brand) {
+        this.brand = brand
+        this.name = name
+    }
+
     static constraints = {
         brand(nullable: true)
     }
 
     @Override
     String toString() {
-        return name;
+        return name + " " + brand?.name;
     }
 }

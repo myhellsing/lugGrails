@@ -10,6 +10,8 @@
 <html>
 <head>
     <meta name="layout" content="main">
+    <g:javascript library="jquery" />
+    <g:javascript src="expense.js"/>
 </head>
 <body>
 <form action="addCheck">
@@ -40,9 +42,10 @@
     </tr>
     <tr id="expense_tr_0">
         <td>Трата</td>
-        <td><input type="text" name="expenses" id="expense_0" value=""/> </td>
+        <td><input type="text" name="expenses"  value=""/> </td>
     </tr>
 </table>
+    <div onclick="addExpense()"> Add Expense</div><br/>
     <input type="submit" value="submit"/>
 </form>
 </body>

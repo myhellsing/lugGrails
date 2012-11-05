@@ -1,7 +1,8 @@
-/**
- * Created with IntelliJ IDEA.
- * User: integral
- * Date: 05.11.12
- * Time: 14:12
- * To change this template use File | Settings | File Templates.
- */
+var cnt =0;
+
+function addExpense(){
+var next = $('#expense_tr_'+cnt).clone();
+cnt++;
+next.attr("id",'expense_tr_'+cnt);
+$('#expense_tr_'+(cnt-1)).parent().append(next);
+}

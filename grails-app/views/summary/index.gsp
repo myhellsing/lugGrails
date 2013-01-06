@@ -18,7 +18,6 @@
 <table>
     <thead>
     <td> <strong>Название</strong></td>
-    <td> <strong>Количество</strong></td>
     <td> <strong>Цена</strong></td>
     </thead>
     <g:each in="${check.expenses}" var="expense">

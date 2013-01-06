@@ -4,7 +4,6 @@ class Check {
 
     static mapWith = "mongo"
 
-    String location;
     Date date;
     User user;
     double discount;
@@ -16,7 +15,7 @@ class Check {
 
     @Override
     String toString() {
-        return location+" " +date;
+        return date +getTotalCost();
     }
 
     double getTotalCost(){

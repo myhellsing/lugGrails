@@ -4,15 +4,22 @@ class Expense {
 
     static mapWith = "mongo"
 
-    Product product;
-    double quantity;
+    String product;
     double price;
 
     static constraints = {
     }
 
+    Expense() {
+    }
+
+    Expense(String product, String price) {
+        this.product = product
+        this.price = Double.parseDouble(price)
+    }
+
     @Override
     String toString() {
-        return product.toString()+" " + quantity +" "+ price;
+        return product + price;
     }
 }
